@@ -9,22 +9,38 @@
 <body>
     <?php
 
-$a = 50;
-$b = 60;
+define ("PI", 3.14);
 
-echo "The sum is below<br>";
-echo $a+$b . "<br>";	
+// $a = 50;
+// $b = 60;
 
-echo "Array in php<br>";
-$fruits = ['applee', 'banana', 'orange', 'grape', 'kiwi'];
-echo $fruits[0];
+// echo "The sum is below<br>";
+// echo $a+$b . "<br>";	
 
-$books = array(
-    "computer"=> "rakesh",
-    "math"=>"kapil"
-);
+// echo "Array in php<br>";
+// $fruits = ['applee', 'banana', 'orange', 'grape', 'kiwi'];
+// echo $fruits[0];
 
-echo $books['computer'];
+// $books = array(
+//     "computer"=> "rakesh",
+//     "math"=>"kapil"
+// );
+
+// echo $books['computer'];
+
+
+// echo "<br>";
+
+
+// $string = "RohanNepal";
+// echo strrev($string);
+
+
+
+echo PI;
+
+
+
 
     ?>
 </body>
