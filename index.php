@@ -19,6 +19,12 @@ echo "Array in php<br>";
 $fruits = ['applee', 'banana', 'orange', 'grape', 'kiwi'];
 echo $fruits[0];
 
+$books = array(
+    "computer"=> "rakesh",
+    "math"=>"kapil"
+);
+
+echo $books['computer'];
 
     ?>
 </body>
