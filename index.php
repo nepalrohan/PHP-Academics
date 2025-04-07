@@ -44,17 +44,28 @@
 
     //function in php
 
-    function average_number($num1, $num2){
-        $average = ($num1 + $num2)/2;
-        return $average;
-    }
+    // function average_number($num1, $num2){
+    //     $average = ($num1 + $num2)/2;
+    //     return $average;
+    // }
 
-    echo average_number(40, 50);
-;
+    // echo average_number(40, 50);
+
+
 
 
 
     ?>
+<form action="action.php" method="post">
+
+Name:<input type="text" name="name"><br><br>
+Email:<input type="email" name="email"><br><br>
+
+<input type="submit" name="submit" value="Submit"><br><br>  
+
+</form>
+
+
 </body>
 
 </html>
